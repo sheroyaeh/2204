@@ -3,7 +3,10 @@ export default class Problem {
         name: 'lixu'
     }
 
-
+    states = {
+        goods: 'lixu',
+        info: 'shuijiao'
+    }
 
     //构造方法,使用new或者实例化类自动调用
     constructor() {
